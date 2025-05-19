@@ -16,5 +16,5 @@ EXPOSE 8000
 # Define environment variable for the app
 ENV PYTHONUNBUFFERED 1
 
-# Run the app when the container starts
-CMD ["python", "app.py"]
+# Run the app when the container starts (corrected to product_list_app.py)
+CMD ["python", "product_list_app.py"]
