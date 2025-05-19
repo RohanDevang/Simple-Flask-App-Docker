@@ -21,6 +21,3 @@ ENV PYTHONUNBUFFERED 1
 
 # Use ENTRYPOINT to ensure that the application runs and allow CMD to specify arguments
 ENTRYPOINT ["python", "product_list_app.py"]
-
-# CMD can be left empty or specify additional parameters if needed
-CMD []
